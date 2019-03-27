@@ -1,0 +1,47 @@
+{
+
+    "manifest_version": 2,
+
+    "name" : "__MSG_ext_name__",
+    "default_locale" : "en",
+	"author": "Steven Kõre <stevenkore1@gmail.com>",
+
+    "version": "1",
+
+    "permissions": [
+        "notifications",
+        "storage",
+        "tabs",
+        "activeTab",
+        "<all_urls>"
+    ],
+
+    "web_accessible_resources": [
+        "img/red/icon48.png",
+        "img/red/icon128.png"
+    ],
+
+    "browser_action": {
+        "default_title": "Work timer",
+        "default_popup": "popup.html"
+    },
+
+    "options_page": "options.html",
+
+    "icons": {
+        "16": "img/red/icon16.png",
+        "32": "img/red/icon32.png",
+        "48": "img/red/icon48.png",
+        "128": "img/red/icon128.png"
+    },
+
+    "background": {
+        "scripts": [
+            "js/lib.js",
+            "js/background.js"
+        ],
+        "persistent": false
+    }
+
+
+}

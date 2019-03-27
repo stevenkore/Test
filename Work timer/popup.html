@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Work timer</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+    <div class="wrapper">
+        <p><span id="work-text"></span> <span id="work-minutes"></span> <span class="minutes-text"></span></p>
+        <p><span id="break-text"></span> <span id="break-minutes"></span> <span class="minutes-text"></span></p>
+
+        <p>
+            <span id="t-hours"></span>
+            <span>:</span>
+            <span id="t-minutes"></span>
+            <span>:</span>
+            <span id="t-seconds"></span>
+        </p>
+
+        <button class="btn btn-success" id="start"></button>
+        <button class="btn btn-danger" id="stop"></button>
+        <button class="btn btn-default" id="restart"></button>
+
+        <hr>
+
+        <div class="flex-between">
+		
+            <a href="options.html" target="_blank" class="btn btn-default" id="settings"></a>
+
+        </div>
+
+    </div>
+
+    <script src="js/lib.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+</html>

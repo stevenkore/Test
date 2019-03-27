@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Options</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body>
+    <div class="options-wrapper">
+        <div id="alert"></div>
+
+        <p><b id="work-text"></b> <span id="work-minutes"></span> <span class="minutes-text"></span></p>
+        <input type="range" id="change-work-minutes" value="30" min="1" max="60">
+
+        <p><b id="break-text"></b> <span id="break-minutes"></span> <span class="minutes-text"></span></p>
+        <input type="range" id="change-break-minutes" value="10" min="1" max="40">
+
+        <p><b id="long-break-after-4-pomodoro-text"></b> <span id="long-break-after-4-pomodoro-minutes"></span> <span class="minutes-text"></span></p>
+        <input type="range" id="change-long-break-after-4-pomodoro" value="25" min="1" max="40">
+
+        <label id="work-notification-setting-title"></label>
+        <textarea class="form-control mb-20" id="work-notification-description" rows="3"></textarea>
+
+        <label id="break-notification-setting-title"></label>
+        <textarea class="form-control mb-20" id="break-notification-description" rows="3"></textarea>
+
+        <label id="long-break-notification-setting-title"></label>
+        <textarea class="form-control mb-20" id="long-break-notification-description" rows="3"></textarea>
+
+        <fieldset class="form-inline form-list">
+            <legend>
+                <select id="site-list-select" class="form-control"></select>
+            </legend>
+
+            <div class="add-site-group">
+                <input class="form-control input-sm" type="text" id="site-url" placeholder="">
+                <button type="button" class="btn btn-success btn-sm" id="add-site"></button>
+            </div>
+
+            <ul class="list-group" id="site-list"></ul>
+        </fieldset>
+
+        <button class="btn btn-primary" id="save"></button>
+    </div>
+
+    <script src="js/lib.js"></script>
+    <script src="js/options.js"></script>
+</body>
+</html>

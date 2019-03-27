@@ -1,0 +1,85 @@
+{
+    "ext_name": {
+        "message": "Work timer"
+    },
+
+    "break_notification_title": {
+        "message": "Break!"
+    },
+    "break_notification_description": {
+        "message": "Take it easy now. You earned it, but this is only a short break."
+    },
+    "break_notification_setting_title": {
+        "message": "Time to take a break message."
+    },
+
+    "long_break_notification_title": {
+        "message": "Long break!"
+    },
+    "long_break_notification_description": {
+        "message": "Long break what am I going to do?"
+    },
+    "long_break_notification_setting_title": {
+        "message": "Long break message."
+    },
+
+    "work_notification_title": {
+        "message": "Time to work!"
+    },
+    "work_notification_description": {
+        "message": "Work and be the best that you can be. No one can tell you otherwise"
+    },
+    "work_notification_setting_title": {
+        "message": "Time to work message"
+    },
+
+    "start_button_text": {
+        "message": "Start"
+    },
+    "stop_button_text": {
+        "message": "Stop"
+    },
+    "restart_button_text": {
+        "message": "Restart"
+    },
+    "start_work_time_text": {
+        "message": "Start work time"
+    },
+    "start_break_time_text": {
+        "message": "Start break time"
+    },
+    "settings_text": {
+        "message": "Settings"
+    },
+    "work_text": {
+        "message": "Work:  "
+    },
+    "break_text": {
+        "message": "Break:  "
+    },
+    "long_break_after_4_pomodoro_text": {
+        "message": "Long break after each 4th pomodoro:"
+    },
+    "minutes_text": {
+        "message": "min"
+    },
+    "add_text": {
+        "message": "Add"
+    },
+    "site_whitelist": {
+        "message": "Enter site whitelist"
+    },
+    "site_blacklist": {
+        "message": "Enter site blacklist"
+    },
+    "enter_site_url_text": {
+        "message": "Enter site url"
+    },
+    "save_button_text": {
+        "message": "Save"
+    },
+
+    "settings_saved": {
+        "message": "Saved"
+    }
+}

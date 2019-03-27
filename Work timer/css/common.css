@@ -1,0 +1,64 @@
+.mb-20 {
+  margin-bottom: 20px;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper {
+  padding: 20px;
+  min-width: 300px;
+}
+
+.options-wrapper {
+  padding: 20px;
+  width: 400px;
+}
+.options-wrapper input[type=range] {
+  margin-bottom: 20px;
+}
+.options-wrapper .form-list {
+  margin-bottom: 30px;
+}
+.options-wrapper .form-list legend {
+  margin-bottom: 10px;
+  border: none;
+}
+.options-wrapper .form-list .add-site-group {
+  display: table;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.options-wrapper .form-list .add-site-group input[type=text] {
+  width: 78%;
+  display: table-cell;
+  margin-right: 2%;
+}
+.options-wrapper .form-list .add-site-group button {
+  width: 20%;
+  display: table-cell;
+}
+.options-wrapper .form-list .list-group-item {
+  padding: 5px 10px;
+  display: table;
+  width: 100%;
+  font-size: 12px;
+}
+.options-wrapper .form-list .list-group-item span {
+  display: table-cell;
+}
+.options-wrapper .form-list .list-group-item .site-url {
+  width: 80%;
+}
+.options-wrapper .form-list .list-group-item .actions {
+  width: 20%;
+  text-align: right;
+}
+.options-wrapper .form-list .list-group-item .actions i {
+  font-size: 12px;
+  cursor: pointer;
+}
+.options-wrapper .form-list .list-group-item .actions i.edit-site {
+  margin-right: 5px;
+}
